@@ -3,7 +3,7 @@ from static import *
 from utils.utils import paths
 
 st.set_page_config(
-    page_title="Hello",
+    page_title="Adnan's DL Model Showcase APP",
     page_icon="👋",
 )
 apply_style()
