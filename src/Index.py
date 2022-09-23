@@ -10,7 +10,7 @@ apply_style()
 st.title(main_title)
 st.sidebar.success("Select a demo above.")
 st.write(
-    "This webapp contains the demo inference of the deep learning models that I have trained and worked on for my pet projects."
+    "This webapp contains the demo inference of the deep learning models that I have trained and worked on for my personal projects."
 )
 st.markdown(
     """## Models/Projects
