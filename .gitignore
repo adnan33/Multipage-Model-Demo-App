@@ -1,0 +1,7 @@
+# ignore all model and asset files
+*.onnx
+*.ico
+*.jpg
+*.png
+*.pyc
+*.mat
