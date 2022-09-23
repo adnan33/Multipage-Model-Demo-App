@@ -16,8 +16,8 @@ st.markdown(
     """## Models/Projects
 Following model/project demos are added here. It will be updated after each project. Check out the [github](https://github.com/adnan33/Multipage-Model-Demo-App.git) repository to know more about the projects.
 
-1. **Cloth Segmentation Model**
-2. **Human Parsing Model**
+1. **[Cloth Segmentation Model](https://adnan33-multipage-model-demo-app-srcindex-0bvfil.streamlitapp.com/Cloth_Segmentation)**
+2. **[Human Parsing Model](https://adnan33-multipage-model-demo-app-srcindex-0bvfil.streamlitapp.com/Human_Parsing)**
 3. **[Plant Disease Detection](https://adnan33-plant-disease-detector-app-srcapp-eud76f.streamlitapp.com/)**""",
     unsafe_allow_html=True,
 )
