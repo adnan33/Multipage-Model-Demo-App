@@ -22,7 +22,7 @@ cloth images and masks from the [VITON PLUS](https://www.kaggle.com/datasets/rku
   'test_TREVSKY': 0.989,
   'test_loss': 0.0265
 ```
-The model is trained with pytorch and converted to onnx (with optimization) to speed up inference.
+The model is trained with **pytorch** and converted to **onnx** (with optimization) to speed up inference.
 Try it out with a demo image(included with the app) or your own images [here].(1/Cloth_Segmentation)
 
 ### Human Parsing Model
@@ -33,5 +33,5 @@ This is a *multi class semantic segmentation* model to solve the human parsing t
 labels are given below. You can read more about it from [here](https://competitions.codalab.org/competitions/23433).
 ![image](images/lip_class_details.JPG)
 ##### Model
-Current model is based on **UNET++-EfficientnetB3** architecture and trained for 24 epochs. The model is trained with pytorch and converted to onnx (with optimization) to speed up inference.\
+Current model is based on **UNET++-EfficientnetB3** architecture and trained for 24 epochs. The model is trained with **pytorch** and converted to **onnx** (with optimization) to speed up inference.\
 **Note: This project is still ongoing so the metrics aren't provided as of now.**
