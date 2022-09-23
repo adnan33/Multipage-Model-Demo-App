@@ -170,3 +170,4 @@ colormap = np.ceil(np.array(colormap) * 255.0)
 # load models
 clothseg_model = rt.InferenceSession(paths.cloth_seg_model_path)
 hp_model = rt.InferenceSession(paths.hp_model_path)
+
