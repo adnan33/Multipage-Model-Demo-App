@@ -14,7 +14,7 @@ st.write(
 )
 st.markdown(
     """## Models/Projects
-Following model/project demos are added here. It will be updated after each project. Keep an eye on the [github](https://github.com/adnan33/Multipage-Model-Demo-App.git) repository.
+Following model/project demos are added here. It will be updated after each project. Check out the [github](https://github.com/adnan33/Multipage-Model-Demo-App.git) repository to know more about the projects.
 
 1. **Cloth Segmentation Model**
 2. **Human Parsing Model** """,
