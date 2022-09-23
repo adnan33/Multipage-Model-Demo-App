@@ -32,6 +32,17 @@ p{
 #cloth-segmentation-demo {
     text-align: center;
 }
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
 /*for image alignment*/
 .css-1kyxreq {
     display: flex;
