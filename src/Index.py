@@ -1,6 +1,7 @@
 import streamlit as st
 from static import *
 from utils.utils import paths
+
 st.set_page_config(
     page_title="Adnan's DL Model Showcase APP",
     page_icon="👋",
@@ -16,7 +17,8 @@ st.markdown(
 Following model/project demos are added here. It will be updated after each project. Check out the [github](https://github.com/adnan33/Multipage-Model-Demo-App.git) repository to know more about the projects.
 
 1. <b><a href="Cloth_Segmentation/" target="_self">Cloth Segmentation Model</a></b>
-2. <b><a href="Human_Parsing/" target="_self">Human Parsing Model</a></b>
-3. **[Plant Disease Detection](https://adnan33-plant-disease-detector-app-srcapp-eud76f.streamlitapp.com/)**""",
+2. <b><a href="Cloth_Segmentation_On_Person/" target="_self">Cloth Segmentation On Human Body Model</a></b>
+3. <b><a href="Human_Parsing/" target="_self">Human Parsing Model</a></b>
+4. **[Plant Disease Detection](https://adnan33-plant-disease-detector-app-srcapp-eud76f.streamlitapp.com/)**""",
     unsafe_allow_html=True,
 )

@@ -1,11 +1,14 @@
 import streamlit as st
 from static import apply_style
-from utils.process import demo_cloth_segmentation, custom_cloth_segmentation
+from utils.process import (
+    demo_human_parsing_segmentation,
+    custom_human_parsing_segmentation,
+)
 
-title = "Cloth Segmentation Demo"
+title = "Human Parsing Demo"
 st.set_page_config(
     page_title=title,
-    page_icon="🥻",
+    page_icon="🧍🏽‍♂️",
 )
 apply_style()
 st.sidebar.success("Select a demo above.")
@@ -16,11 +19,11 @@ method_select = st.selectbox(
 )
 if options_dict[method_select]:
     output_shape = st.checkbox("Output image shape is equal to input image shape")
-    demo_cloth_segmentation(output_shape)
+    demo_human_parsing_segmentation(output_shape)
 else:
     uploaded_file = st.file_uploader(
-        "Please Input Cloth Images", type=["jpg", "png", "jpeg", "bmp"]
+        "Please Input Human Images", type=["jpg", "png", "jpeg", "bmp"]
     )
     output_shape = st.checkbox("Output image shape is equal to input image shape")
     if uploaded_file != None and uploaded_file != []:
-        custom_cloth_segmentation(uploaded_file, output_shape)
+        custom_human_parsing_segmentation(uploaded_file, output_shape)
