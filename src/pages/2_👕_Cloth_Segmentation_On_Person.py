@@ -1,5 +1,5 @@
 import streamlit as st
-from static import apply_style
+from statics import apply_style
 from utils.process import (
     demo_cloth_parsing_segmentation,
     custom_cloth_parsing_segmentation,
@@ -11,12 +11,13 @@ st.set_page_config(
     page_title=title,
     page_icon="🧍🏽‍♂️",
 )
-st.write(
-    "Hi, I am still working on this model. Segmentation result might not be good for some images."
-)
+
 apply_style()
 st.sidebar.success("Select a demo above.")
 st.title(title)
+st.write(
+    "***Hi, I am still working on this model. Segmentation result might not be good for some images."
+)
 options_dict = {"Demo Image": 1, "My Own Image": 0}
 method_select = st.selectbox(
     "How would you like to test the model?", ["Demo Image", "My Own Image"], index=0

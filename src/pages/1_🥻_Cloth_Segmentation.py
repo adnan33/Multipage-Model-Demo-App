@@ -1,5 +1,5 @@
 import streamlit as st
-from static import apply_style
+from statics import apply_style
 from utils.process import demo_cloth_segmentation, custom_cloth_segmentation
 
 title = "Cloth Segmentation Demo"

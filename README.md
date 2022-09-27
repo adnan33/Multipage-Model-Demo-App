@@ -6,7 +6,8 @@ Here's the [app](https://adnan33-multipage-model-demo-app-srcindex-0bvfil.stream
 Following model/project demos are added here. It will be updated after each project.
 
 1. **Cloth Segmentation Model**
-2. **Human Parsing Model** 
+2. **Cloth Segmentation On Human Body Model**
+3. **Human Parsing Model** 
 
 ## Model/Project details
 Here are some brief details of each model/project:
@@ -23,7 +24,18 @@ cloth images and masks from the [VITON PLUS](https://www.kaggle.com/datasets/rku
   'test_loss': 0.0265
 ```
 The model is trained with **pytorch** and converted to **onnx** (with optimization) to speed up inference.
-Try it out with a demo image(included with the app) or your own images [here].(1/Cloth_Segmentation)
+
+### Cloth Segmentation On Human Body Model
+##### Dataset
+This is a *multi class semantic segmentation* model to segment cloths from upper and lower part of the body . For this model, I have used the **DeepFashion2** dataset. This version of the dataset has 126750 training,
+3250 validation and 10000 test multi person images and corresponding pixel level annotations. The dataset has 3 different human parts annotated. The class labels are *background*,*upper_body_cloth* and *lower_body_cloth*.
+##### Model
+Current model is based on **UNET++-EfficientnetB3** architecture and trained for 18 epochs with the *Categorical cross-entropy* loss function. The model is trained with **pytorch** and converted to **onnx** (with optimization) to speed up inference. the current model metrics are:
+```
+  'test_IOU': 0.746,
+  'test_DICE': 0.841,
+  'test_loss': 0.1441
+```
 
 ### Human Parsing Model
 ##### Dataset

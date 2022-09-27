@@ -1,11 +1,9 @@
 import onnxruntime as rt
-from pydantic import BaseSettings
 import numpy as np
 from PIL import Image
 import os
 import gdown
-
-from static import (
+from statics import (
     URLConfigs,
     EnvKeyConfigs,
     ImageConfigs,
