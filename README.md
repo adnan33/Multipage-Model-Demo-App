@@ -27,8 +27,8 @@ The model is trained with **pytorch** and converted to **onnx** (with optimizati
 
 ### Cloth Segmentation On Human Body Model
 ##### Dataset
-This is a *multi class semantic segmentation* model to segment cloths from upper and lower part of the body . For this model, I have used the **DeepFashion2** dataset. This version of the dataset has 126750 training,
-3250 validation and 10000 test multi person images and corresponding pixel level annotations. The dataset has 3 different human parts annotated. The class labels are *background*,*upper_body_cloth* and *lower_body_cloth*.
+This is a *multi class semantic segmentation* model to segment cloths from upper and lower part of the body . For this model, I have used the [DeepFashion2](https://paperswithcode.com/dataset/deepfashion2) dataset. I have modified this dataset to have only upper and lower body cloths rather than the original dataset labels. This version of the dataset has 126750 training,3250 validation and 10000 test person images and corresponding pixel level annotations. The dataset has 3 different labels. The class labels are *background*,*upper_body_cloth* and *lower_body_cloth*.
+
 ##### Model
 Current model is based on **UNET++-EfficientnetB3** architecture and trained for 18 epochs with the *Categorical cross-entropy* loss function. The model is trained with **pytorch** and converted to **onnx** (with optimization) to speed up inference. the current model metrics are:
 ```
