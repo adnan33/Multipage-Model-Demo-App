@@ -31,7 +31,7 @@ hp_colormap_list = [
 # On person cloth segmentation colormap
 opcs_colormap_list = [
     [0.0, 0.0, 0.0],
-    [0.5, 0.0, 0.0],
+    [0.99609375, 0.33203125, 0.0],
     [0.0, 0.99609375, 0.99609375],
 ]
 
