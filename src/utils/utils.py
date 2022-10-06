@@ -14,7 +14,7 @@ from statics import (
 
 
 def download_resource(path: str, url: str, env_key: str):
-    """Method to download the largers resource files from google drive. The drive links are saved
+    """Method to download the large resource files from google drive. The drive links are saved
     in the secret file.
 
     Args:
