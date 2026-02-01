@@ -22,7 +22,7 @@ Following model/project demos are added here. It will be updated after each proj
     - A ***multi-class (3 classes) semantic segmentation*** model to segment out upper and lower body cloths from an image of a person.
 3. <b><a href="Human_Parsing/" target="_self">Human Parsing Model</a></b>
     -  A ***multi-class (20 classes) semantic segmentation*** model for the task of **[human parsing](https://paperswithcode.com/task/human-parsing)**.
-4. **[Plant Disease Detection](https://adnan33-plant-disease-detector-app-srcapp-eud76f.streamlitapp.com/)**
+4. **[Plant Disease Detection](https://adnan-plant-disease-detector.streamlitapp.com/)**
     - A mutli class classification model to detect plant diseases from leaf image.
     """,
     unsafe_allow_html=True,
