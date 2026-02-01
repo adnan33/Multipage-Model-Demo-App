@@ -1,6 +1,6 @@
 # Multipage-Model-Demo-App
 A multipage demo inference application of different deep learning models built with Streamlit library. The app is built using **Python 3.10**.
-Here's the [app](https://adnan33-multipage-model-demo-app-srcindex-0bvfil.streamlitapp.com/)
+Here's the [app](https://adnan-multipage-segmentation-model-demo.streamlitapp.com/)
 
 ## Models/Projects
 Following model/project demos are added here. It will be updated after each project.
